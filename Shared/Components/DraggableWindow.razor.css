@@ -1,0 +1,24 @@
+.draggable-window {
+    position: absolute;
+    min-width: 300px;
+    z-index: 9;
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+    border: 2px solid var(--accent-color);
+}
+
+.draggable-window__header {
+    cursor: move;
+    z-index: 10;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.skirt {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    user-select: none;
+}

@@ -1,0 +1,15 @@
+@inherits DraggableWindowModel
+
+@if (isDragging)
+{
+    <div class="skirt" @onmousemove="HandleElementDrag"></div>
+}
+<div class="draggable-window" style="user-select: @(isDragging ? "none" : ""); left: @(Left)px; top: @(Top)px"
+    @onmousemove="HandleElementDrag">
+    <div class="draggable-window__header" @onmousedown="HandleDragMouseDown" @onmouseup="HandleStopDragging">
+        @Header
+    </div>
+    <div>
+        @Body
+    </div>
+</div>

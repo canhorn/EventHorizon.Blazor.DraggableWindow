@@ -1,0 +1,18 @@
+:root {
+    --default-animation-speed: 1000ms;
+    --font-family: "Electrolize", "sans-serif";
+    --foreground-color: white;
+    --background-color: #171717;
+    --secondary-background-color: black;
+    --foreground-shadow-color: gray;
+    --secondary-foreground-shadow-color: white;
+    --disabled-background-color: #d6d5d5a6;
+    --accent-color: var(--primary-color);
+    --accent-shadow-color: #26dafda6;
+    --primary-color: #3a0647;
+    --secondary-color: darkblue;
+}
+
+.--center {
+    text-align: center;
+}
